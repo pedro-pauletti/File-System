@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/pedro-pauletti/Simulador-Escalonamento-de-Processos">
-    <img src="https://img.shields.io/github/downloads/pedro-pauletti/Simulador-Escalonamento-de-Processos/total">
-    <img src="https://img.shields.io/github/contributors/pedro-pauletti/Simulador-Escalonamento-de-Processos">
+    <img src="https://img.shields.io/github/repo-size/pedro-pauletti/File-System-Simulator">
+    <img src="https://img.shields.io/github/downloads/pedro-pauletti/File-System-Simulator/total">
+    <img src="https://img.shields.io/github/contributors/pedro-pauletti/File-System-Simulator">
 </p>
 
 <p>
@@ -22,7 +22,7 @@
 </p>
 
 
-<a align="center" href="https://drive.google.com/file/d/1js3r10AU76a8tUtQP33NyzXg8NnIObOg/view?usp=sharing"><img src="https://user-images.githubusercontent.com/57163905/122691481-4be70480-d206-11eb-9a95-08755f4a58fe.png" width = "400px"></a>
+<a align="center" href="https://drive.google.com/file/d/11CljHm4zd4VsnoGVodOWI1Cn0g-kw78O/view?usp=sharing"><img src="https://user-images.githubusercontent.com/57163905/122691481-4be70480-d206-11eb-9a95-08755f4a58fe.png" width = "400px"></a>
 
 
 
@@ -40,12 +40,21 @@ Get to know the project:
 
 ## About 💬
 
+In computing, filesystem  controls how data is stored and retrieved. Without a file system, data placed in a storage medium would be one large body of data with no way to tell where one piece of data stops and the next begins. By separating the data into pieces and giving each piece a name, the data is easily isolated and identified. The structure and logic rules used to manage the groups of data and their names is called a "file system."
 
+The idea of creating a simulator that students and interested parties can understand and analyze the operation of a file system that allows the recording of files in blocks (record) or text, the simulator allows visual and didactic way, to perform searches and edit the file, adding or removing data. The entire system was developed in Python. An interface was designed using a PySimpleGUI graphical library. 
 
 
 ## How to use?💡
+### Choosing the File System
+<p>
+<h1 align="center">
+    <img src="https://user-images.githubusercontent.com/57163905/123370628-80d0bf80-d556-11eb-97fe-3bfd4ab28446.png" width = "300px"/>
+</h1>
+</p>
 
-# Create a file
+
+### Create a file
 <p>
 <h1 align="center">
     <img src="https://user-images.githubusercontent.com/57163905/123202830-bceb1e00-d48b-11eb-9f3b-5ca66e443ea7.gif" width = "900px"/>
@@ -53,7 +62,8 @@ Get to know the project:
 </p>
 
 
-## Text FileSystem
+# Text FileSystem
+System does not control file size in bytes, the end of a text file is indicated by placing one or more special characters, known as end-of-file marker, as padding after the last line in a text file.
 
 - Opening a file
 <p>
@@ -70,7 +80,8 @@ Get to know the project:
 </p>
 
 
-## Record FileSystem
+# Record FileSystem
+ File system where data is stored as collections of records. Each record is given a unique identifier. Different access methods for records may be provided, for example records may be retrieved in sequential order, by key, or by record number.
 
 - Opening a file
 <p>
@@ -94,19 +105,19 @@ Get to know the project:
 </p>
 
 ### Buttons:
-- ***Lunch***  – Inicializa o Sistema de Arquivos selecionado pelo usuário
-- ***Browse*** – Buscar arquivos 
-- ***Load File*** – Carrega o arquivo selecionado no simulador
-- ***Save*** – Salva as modificações realizadas no arquivo (Sistema de Arquivos Texto)
-- ***ADD*** – Adiciona um registro ao arquivo (Sistema de Arquivos Record)
-- ***Search*** – Realiza uma busca no arquivo, palavras para o Sistema de Arquivos Texto e registros podendo alterar a chave de busca no Sistema de Arquivos Record<br>
+- ***Lunch*** – Initializes the file system selected by the user
+- ***Browse*** – Search files
+- ***Load File*** – Loads the selected file into the simulator
+- ***Save*** – Saves the changes made to the file (Text File System)
+- ***ADD*** – Adds a record to the file (Record File System)
+- ***Search*** - Performs a search in the file, words for the Text File System and records, from the search key, in the Record File System<br>
 - ***File:***<br>
-	– ***New File:*** Abre a janela para a criação de um novo arquivo<br>
+– ***New File:*** Opens the window for creating a new file<br>
 - ***Application:***<br>
-	– ***Restart:*** Reinicia a aplicação retornando para página de escolha<br>
-	– ***Quit:*** Fecha a aplicação<br>
+– ***Restart:*** Restart the application returning to the choice page<br>
+– ***Quit:*** Close the application<br>
 - ***Help:***<br>
-	– ***About:*** Redireciona o usuário para página do GitHub da aplicação<br>
+– ***About:*** Redirects user to application's GitHub page<br>
 
 
 ## 🛠 Tools Used
