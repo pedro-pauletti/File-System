@@ -105,7 +105,7 @@ System does not control file size in bytes, the end of a text file is indicated 
 </p>
 
 ### Buttons:
-- ***Lunch*** – Initializes the file system selected by the user
+- ***Launch*** – Initializes the file system selected by the user
 - ***Browse*** – Search files
 - ***Load File*** – Loads the selected file into the simulator
 - ***Save*** – Saves the changes made to the file (Text File System)
