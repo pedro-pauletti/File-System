@@ -7,7 +7,7 @@
 <p>
 <h1 align="center">
     <img title="File-System-Simulator" src="https://user-images.githubusercontent.com/57163905/122691294-29082080-d205-11eb-9fe4-8518f95589d4.png" width = "250px"/>
-    <h1 align="center">Memory-Management-Simulator</h1>
+    <h1 align="center">File-System-Simulator</h1>
 </h1>
 </p>
 
